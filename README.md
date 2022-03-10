@@ -18,13 +18,13 @@ The analysis pipeline follows the following steps:
     5. Reactive closure of wildlife highway underpasses
 3. Sensitivity analysis
 
-**NOTE:** The majority of analyses and generation of figures occurs within main simulation scripts.
+**NOTE:** The majority of analyses and generation of figures occurs within main simulation scripts and all scripts can be found in the "Scripts" folder.
 
 
 ## 1. Parameter set generation
-This step includes parameter set generation for all simulations (no interventions and all management interventions). Note that the following script also includes code for generation parameter sets for sensitivity analyses, though this relies in part on results from later simulation steps. Parameter sets are generated in (all scripts can be found in the "Scripts" folder):
-1. **Design_parameter_sets.R:** code for generating all parameter sets. Some sensitivity analysis parameter generation relies on results of other simulation scripts. 
-    1. "Parameter_sets" folder: Actual parameter sets used in manuscript simulations.
+This step includes parameter set generation for all main simulations (no interventions and all management interventions). Parameter sets are generated in:
+1. **Design_parameter_sets.R:** code for generating all main simulation parameter sets.  
+    1. "Parameter_sets" folder: Actual parameter sets used in manuscript simulations. Main simulation parameter set files include "baseline" in the file name.
 
 ## 2. Simulations with and without management interventions
 Main scripts govern network simulation, transmission simulation (with or without interventions), and analysis steps. Each main script relies on external script functions, as well as a parameters dataset. All main and function scripts can be found in the "Scripts" folder.
@@ -66,3 +66,6 @@ Main scripts govern network simulation, transmission simulation (with or without
     7. ***analyze_infections.R:*** calculates basic summary values for infection outcomes of interest
 
 ## Sensitivity analysis
+This step includes parameter set generation for all sensitivity analysis simulations (no interventions and proactive vaccination interventions). 
+1. **Sensitivity_parameter_sets.R:** code for generating all sensitivity analysis parameter sets. Some sensitivity analysis parameter generation relies on files from parameter set generation for main simulations. 
+    1. "Parameter_sets" folder: Actual parameter sets used in manuscript simulations. Sensitivity analysis parameter sets include "sensitivity" in the file name. 
