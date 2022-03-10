@@ -1,7 +1,10 @@
 # FeLV_Management_Simulations
 Manuscript code for FeLV management simulations
 
-This repository features code and data used in the manuscript "Paradoxes and synergies: optimizing management of a deadly virus in an endangered carnivore." Preprint link coming soon.
+This repository features code and data used in the manuscript "Paradoxes and synergies: optimizing management of a deadly virus in an endangered carnivore." 
+
+Code is archived with Zenodo: [![DOI](https://zenodo.org/badge/196413472.svg)](https://zenodo.org/badge/latestdoi/196413472)
+
 
 **NOTE:** Much of the network and transmission simulation pipeline is adapted from Gilbertson et al 2021 ([BioRxiv preprint](https://doi.org/10.1101/2021.01.09.426055)). The [GitHub repository](https://github.com/mjones029/FIV_FeLV_Transmission) for that manuscript is publicly available.
 
@@ -23,9 +26,9 @@ This step includes parameter set generation for all simulations (no intervention
 1. **Design_parameter_sets.R:** code for generating all parameter sets. Some sensitivity analysis parameter generation relies on results of other simulation scripts. 
     1. "Parameter_sets" folder: Actual parameter sets used in manuscript simulations.
 
-## 2. Simulations with management interventions
+## 2. Simulations with and without management interventions
 Main scripts govern network simulation, transmission simulation (with or without interventions), and analysis steps. Each main script relies on external script functions, as well as a parameters dataset. All main and function scripts can be found in the "Scripts" folder.
-1. **Nointer_sims.R:** main script for simulations without interventions. Relies on the following external functions:
+1. **Nointer_sims.R:** main script for simulations **without interventions.** Relies on the following external functions:
     1. ***simulate_pop_ergm.R:*** network simulation function
     2. ***trans_sim_basic.R:*** basic FeLV transmission modeling function
     3. ***post_process_outbreak_data_basic.R:*** processes outbreak data to account for respawning process
