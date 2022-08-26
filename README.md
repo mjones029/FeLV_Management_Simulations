@@ -1,7 +1,7 @@
 # FeLV_Management_Simulations
 Manuscript code for FeLV management simulations
 
-This repository features code and data used in the manuscript "Paradoxes and synergies: optimizing management of a deadly virus in an endangered carnivore." 
+This repository features code and data used in the manuscript ["Paradoxes and synergies: optimizing management of a deadly virus in an endangered carnivore,"](https://doi.org/10.1111/1365-2664.14165) published in the Journal of Applied Ecology (2022).
 
 Code is archived with Zenodo: [![DOI](https://zenodo.org/badge/328459524.svg)](https://zenodo.org/badge/latestdoi/328459524)
 
