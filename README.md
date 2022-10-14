@@ -1,12 +1,12 @@
 # FeLV_Management_Simulations
 Manuscript code for FeLV management simulations
 
-This repository features code and data used in the manuscript ["Paradoxes and synergies: optimizing management of a deadly virus in an endangered carnivore,"](https://doi.org/10.1111/1365-2664.14165) published in the Journal of Applied Ecology (2022).
+This repository features code and data used in the manuscript ["Paradoxes and synergies: optimizing management of a deadly virus in an endangered carnivore,"](https://doi.org/10.1111/1365-2664.14165) published in the *Journal of Applied Ecology* (2022).
 
 Code is archived with Zenodo: [![DOI](https://zenodo.org/badge/328459524.svg)](https://zenodo.org/badge/latestdoi/328459524)
 
 
-**NOTE:** Much of the network and transmission simulation pipeline is adapted from Gilbertson et al 2021 ([BioRxiv preprint](https://doi.org/10.1101/2021.01.09.426055)). The [GitHub repository](https://github.com/mjones029/FIV_FeLV_Transmission) for that manuscript is publicly available.
+**NOTE:** Much of the network and transmission simulation pipeline is adapted from [Gilbertson et al 2022](https://doi.org/10.3389/fvets.2022.940007), "Apathogenic proxies for transmission dynamics of a fatal virus"in *Frontiers in Veterinary Science*. The [GitHub repository](https://github.com/mjones029/FIV_FeLV_Transmission) for that manuscript is publicly available.
 
 The analysis pipeline follows the following steps:
 1. Parameter set generation
